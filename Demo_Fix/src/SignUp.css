@@ -1,0 +1,90 @@
+/* SignUp.css */
+
+* {
+    margin: 0;
+    padding: 0; /* Corrected padding to 0 */
+    box-sizing: border-box;
+  }
+  
+  .formal {
+    display: flex;
+    border: 1px solid #ccc;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Changed from center to flex-start */
+    height: 100vh;
+    padding-top: 100px; /* Added padding-top to move form downward */
+  }
+  .formal h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #f06, #f0f0f1,#4a90e2, rgb(240, 235, 237) );
+    background-size: 400% 400%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 36px;
+    animation: gradientAnimation 5s ease infinite;
+  }
+  .formal input{
+    height: 35px;
+    width: 93%;
+    margin-bottom: 10px;
+  }
+  .formal select{
+    height: 35px;
+    width: 93%;
+    margin-bottom: 10px;
+
+  }
+
+
+  
+  .formal form {
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formal h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formal label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .formal input[type="text"],
+  .formal input[type="email"],
+  .formal input[type="password"],
+  .formal input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formal button[type="submit"] {
+    width: 100%;
+    background: linear-gradient( #19c422, #4c2cdd);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .formal button[type="submit"]:hover {
+    background-color: #357ae8;
+    background: linear-gradient(135deg,#4c2cdd,#19c422 );
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+  

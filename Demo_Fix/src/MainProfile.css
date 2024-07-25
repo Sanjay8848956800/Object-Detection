@@ -1,0 +1,67 @@
+/* Main Profile Container */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f481;
+}
+
+/* Profile Header */
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #7c9ce0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Details Container */
+.details-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Card for each detail */
+.detail-card {
+  background: #37f751;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.detail-card p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.detail-card strong {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .profile-header {
+    width: 90%;
+    padding: 10px;
+  }
+  
+  .detail-card {
+    width: 100%;
+    padding: 10px;
+  }
+}

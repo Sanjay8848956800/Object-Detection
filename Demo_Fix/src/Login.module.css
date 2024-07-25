@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(45deg, #001a34, #04022cc4);
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .login-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-card {
+    background-color: #f8f9fa;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-card-heading {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .login-card-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .login-card-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .login-card-input {
+    padding: 10px;
+    border: 1px solid #b91818;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-card-button{
+    background-color: #08fa3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  .login-card-signup-button {
+    background-color: #1c28d3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-card-button:hover,
+  .login-card-signup-button:hover {
+    background-color: #692ccc;
+  }
+  
+  .login-card-signup-button {
+    background-color: #3411b4;
+  }
+  
+  .login-card-signup-button:hover {
+    background-color: #218838;
+  }
+  
